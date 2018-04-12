@@ -1,0 +1,216 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Allow Senders:"
+                    android:textColor="#000"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/queallsend"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/inquiry" />
+
+            </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_centerVertical="true"
+        android:text="Send feedback"/>
+</LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recfax_sendr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:overScrollMode="never" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/edtsendr"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Add email here"
+                    android:textSize="14sp"
+                    android:inputType="textEmailAddress" />
+
+                <CheckBox
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/chkalsend"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp" />
+
+                <ImageView
+                    android:id="@+id/btnaddsendr"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_plusadd" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnsendadd"
+                style="@style/AppTheme.Button"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_field"
+                android:text="Add Sender"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                app:backgroundTint="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:text="Notification Email:"
+                    android:textColor="#000"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                   android:id="@+id/quenotem"
+                    android:src="@drawable/inquiry" />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:layout_centerVertical="true"
+                android:text="Include Attachment"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recfax_reciver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:overScrollMode="never" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/edtrecv"
+                        android:layout_width="190dp"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"
+                        android:hint="Add email here"
+                        android:inputType="textEmailAddress" />
+
+                    <CheckBox
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/chkalreciv"
+                        android:layout_marginLeft="7dp" />
+
+                    <ImageView
+                        android:id="@+id/btnaddreciv"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/ic_plusadd" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnreciveadd"
+                    style="@style/AppTheme.Button"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_field"
+                    android:text="Add Reciver"
+                    android:textColor="#fff"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="10dp"
+                    app:backgroundTint="@color/colorPrimary" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

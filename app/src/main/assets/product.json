@@ -1,0 +1,637 @@
+[
+  {"Val":"201","DisplayName":"201","DisplayDesc":"New Jersey"},
+  {"Val":"202","DisplayName":"202","DisplayDesc":"District of Columbia"},
+  {"Val":"203","DisplayName":"203","DisplayDesc":"Connecticut"},
+  {"Val":"204","DisplayName":"204","DisplayDesc":"Manitoba"},
+  {"Val":"205","DisplayName":"205","DisplayDesc":"Alabama"},
+  {"Val":"206","DisplayName":"206","DisplayDesc":"Washington"},
+  {"Val":"207","DisplayName":"207","DisplayDesc":"Maine"},
+  {"Val":"208","DisplayName":"208","DisplayDesc":"Idaho"},
+  {"Val":"209","DisplayName":"209","DisplayDesc":"California"},
+  {"Val":"210","DisplayName":"210","DisplayDesc":"Texas"},
+  {"Val":"212","DisplayName":"212","DisplayDesc":"New York"},
+  {"Val":"213","DisplayName":"213","DisplayDesc":"California"},
+  {"Val":"214","DisplayName":"214","DisplayDesc":"Texas"},
+  {"Val":"215","DisplayName":"215","DisplayDesc":"Pennsylvania"},
+  {"Val":"216","DisplayName":"216","DisplayDesc":"Ohio"},
+  {"Val":"217","DisplayName":"217","DisplayDesc":"Illinois"},
+  {"Val":"218","DisplayName":"218","DisplayDesc":"Minnesota"},
+  {"Val":"219","DisplayName":"219","DisplayDesc":"Indianna"},
+  {"Val":"220","DisplayName":"220","DisplayDesc":"Ohio"},
+  {"Val":"223","DisplayName":"223","DisplayDesc":"Pennsylvania"},
+  {"Val":"224","DisplayName":"224","DisplayDesc":"Illinois"},
+  {"Val":"225","DisplayName":"225","DisplayDesc":"Louisiana"},
+  {"Val":"226","DisplayName":"226","DisplayDesc":"Ontario"},
+  {"Val":"228","DisplayName":"228","DisplayDesc":"Mississippi"},
+  {"Val":"229","DisplayName":"229","DisplayDesc":"Georgia"},
+  {"Val":"231","DisplayName":"231","DisplayDesc":"Michigan"},
+  {"Val":"234","DisplayName":"234","DisplayDesc":"Ohio"},
+  {"Val":"236","DisplayName":"236","DisplayDesc":"British Columbia"},
+  {"Val":"239","DisplayName":"239","DisplayDesc":"Florida"},
+  {"Val":"240","DisplayName":"240","DisplayDesc":"Maryland"},
+  {"Val":"242","DisplayName":"242","DisplayDesc":"Bahamas"},
+  {"Val":"246","DisplayName":"246","DisplayDesc":"Barbados"},
+  {"Val":"248","DisplayName":"248","DisplayDesc":"Michigan"},
+  {"Val":"249","DisplayName":"249","DisplayDesc":"Ontario"},
+  {"Val":"250","DisplayName":"250","DisplayDesc":"British Columbia"},
+  {"Val":"251","DisplayName":"251","DisplayDesc":"Alabama"},
+  {"Val":"252","DisplayName":"252","DisplayDesc":"North Carolina"},
+  {"Val":"253","DisplayName":"253","DisplayDesc":"Washington"},
+  {"Val":"254","DisplayName":"254","DisplayDesc":"Texas"},
+  {"Val":"256","DisplayName":"256","DisplayDesc":"Alabama"},
+  {"Val":"260","DisplayName":"260","DisplayDesc":"Indianna"},
+  {"Val":"262","DisplayName":"262","DisplayDesc":"Wisconsin"},
+  {"Val":"264","DisplayName":"264","DisplayDesc":"Anguilla"},
+  {"Val":"267","DisplayName":"267","DisplayDesc":"Pennsylvania"},
+  {"Val":"268","DisplayName":"268","DisplayDesc":"Antigua Barbuda"},
+  {"Val":"269","DisplayName":"269","DisplayDesc":"Michigan"},
+  {"Val":"270","DisplayName":"270","DisplayDesc":"Kentucky"},
+  {"Val":"272","DisplayName":"272","DisplayDesc":"Pennsylvania"},
+  {"Val":"276","DisplayName":"276","DisplayDesc":"Virginia"},
+  {"Val":"281","DisplayName":"281","DisplayDesc":"Texas"},
+  {"Val":"284","DisplayName":"284","DisplayDesc":"British Virgin Islands"},
+  {"Val":"289","DisplayName":"289","DisplayDesc":"Ontario"},
+  {"Val":"301","DisplayName":"301","DisplayDesc":"Maryland"},
+  {"Val":"302","DisplayName":"302","DisplayDesc":"Delaware"},
+  {"Val":"303","DisplayName":"303","DisplayDesc":"Colorado"},
+  {"Val":"304","DisplayName":"304","DisplayDesc":"West Virginia"},
+  {"Val":"305","DisplayName":"305","DisplayDesc":"Florida"},
+  {"Val":"306","DisplayName":"306","DisplayDesc":"Saskatchewan"},
+  {"Val":"307","DisplayName":"307","DisplayDesc":"Wyoming"},
+  {"Val":"308","DisplayName":"308","DisplayDesc":"Nebraska"},
+  {"Val":"309","DisplayName":"309","DisplayDesc":"Illinois"},
+  {"Val":"310","DisplayName":"310","DisplayDesc":"California"},
+  {"Val":"312","DisplayName":"312","DisplayDesc":"Illinois"},
+  {"Val":"313","DisplayName":"313","DisplayDesc":"Michigan"},
+  {"Val":"314","DisplayName":"314","DisplayDesc":"Missouri"},
+  {"Val":"315","DisplayName":"315","DisplayDesc":"New York"},
+  {"Val":"316","DisplayName":"316","DisplayDesc":"Kansas"},
+  {"Val":"317","DisplayName":"317","DisplayDesc":"Indianna"},
+  {"Val":"318","DisplayName":"318","DisplayDesc":"Louisiana"},
+  {"Val":"319","DisplayName":"319","DisplayDesc":"Iowa"},
+  {"Val":"320","DisplayName":"320","DisplayDesc":"Minnesota"},
+  {"Val":"321","DisplayName":"321","DisplayDesc":"Florida"},
+  {"Val":"323","DisplayName":"323","DisplayDesc":"California"},
+  {"Val":"325","DisplayName":"325","DisplayDesc":"Texas"},
+  {"Val":"330","DisplayName":"330","DisplayDesc":"Ohio"},
+  {"Val":"331","DisplayName":"331","DisplayDesc":"Illinois"},
+  {"Val":"332","DisplayName":"332","DisplayDesc":"New York"},
+  {"Val":"334","DisplayName":"334","DisplayDesc":"Alabama"},
+  {"Val":"336","DisplayName":"336","DisplayDesc":"North Carolina"},
+  {"Val":"337","DisplayName":"337","DisplayDesc":"Louisiana"},
+  {"Val":"339","DisplayName":"339","DisplayDesc":"Massachusetts"},
+  {"Val":"340","DisplayName":"340","DisplayDesc":"US Virgin Islands"},
+  {"Val":"343","DisplayName":"343","DisplayDesc":"Ontario"},
+  {"Val":"345","DisplayName":"345","DisplayDesc":"Cayman Islands"},
+  {"Val":"346","DisplayName":"346","DisplayDesc":"Texas"},
+  {"Val":"347","DisplayName":"347","DisplayDesc":"New York"},
+  {"Val":"351","DisplayName":"351","DisplayDesc":"Massachusetts"},
+  {"Val":"352","DisplayName":"352","DisplayDesc":"Florida"},
+  {"Val":"360","DisplayName":"360","DisplayDesc":"Washington"},
+  {"Val":"361","DisplayName":"361","DisplayDesc":"Texas"},
+  {"Val":"364","DisplayName":"364","DisplayDesc":"Kentucky"},
+  {"Val":"365","DisplayName":"365","DisplayDesc":"Ontario"},
+  {"Val":"380","DisplayName":"380","DisplayDesc":"Ohio"},
+  {"Val":"385","DisplayName":"385","DisplayDesc":"Utah"},
+  {"Val":"386","DisplayName":"386","DisplayDesc":"Florida"},
+  {"Val":"401","DisplayName":"401","DisplayDesc":"Rhode Island"},
+  {"Val":"402","DisplayName":"402","DisplayDesc":"Nebraska"},
+  {"Val":"403","DisplayName":"403","DisplayDesc":"Alberta"},
+  {"Val":"404","DisplayName":"404","DisplayDesc":"Georgia"},
+  {"Val":"405","DisplayName":"405","DisplayDesc":"Oklahoma"},
+  {"Val":"406","DisplayName":"406","DisplayDesc":"Montana"},
+  {"Val":"407","DisplayName":"407","DisplayDesc":"Florida"},
+  {"Val":"408","DisplayName":"408","DisplayDesc":"California"},
+  {"Val":"409","DisplayName":"409","DisplayDesc":"Texas"},
+  {"Val":"410","DisplayName":"410","DisplayDesc":"Maryland"},
+  {"Val":"412","DisplayName":"412","DisplayDesc":"Pennsylvania"},
+  {"Val":"413","DisplayName":"413","DisplayDesc":"Massachusetts"},
+  {"Val":"414","DisplayName":"414","DisplayDesc":"Wisconsin"},
+  {"Val":"415","DisplayName":"415","DisplayDesc":"California"},
+  {"Val":"416","DisplayName":"416","DisplayDesc":"Ontario"},
+  {"Val":"417","DisplayName":"417","DisplayDesc":"Missouri"},
+  {"Val":"418","DisplayName":"418","DisplayDesc":"Quebec"},
+  {"Val":"419","DisplayName":"419","DisplayDesc":"Ohio"},
+  {"Val":"423","DisplayName":"423","DisplayDesc":"Tennessee"},
+  {"Val":"424","DisplayName":"424","DisplayDesc":"California"},
+  {"Val":"425","DisplayName":"425","DisplayDesc":"Washington"},
+  {"Val":"430","DisplayName":"430","DisplayDesc":"Texas"},
+  {"Val":"431","DisplayName":"431","DisplayDesc":"Manitoba"},
+  {"Val":"432","DisplayName":"432","DisplayDesc":"Texas"},
+  {"Val":"434","DisplayName":"434","DisplayDesc":"Virginia"},
+  {"Val":"435","DisplayName":"435","DisplayDesc":"Utah"},
+  {"Val":"437","DisplayName":"437","DisplayDesc":"Ontario"},
+  {"Val":"438","DisplayName":"438","DisplayDesc":"Quebec"},
+  {"Val":"440","DisplayName":"440","DisplayDesc":"Ohio"},
+  {"Val":"441","DisplayName":"441","DisplayDesc":"Bermuda"},
+  {"Val":"442","DisplayName":"442","DisplayDesc":"California"},
+  {"Val":"443","DisplayName":"443","DisplayDesc":"Maryland"},
+  {"Val":"450","DisplayName":"450","DisplayDesc":"Quebec"},
+  {"Val":"458","DisplayName":"458","DisplayDesc":"Oregon"},
+  {"Val":"463","DisplayName":"463","DisplayDesc":"Indianna"},
+  {"Val":"469","DisplayName":"469","DisplayDesc":"Texas"},
+  {"Val":"470","DisplayName":"470","DisplayDesc":"Georgia"},
+  {"Val":"473","DisplayName":"473","DisplayDesc":"Grenada"},
+  {"Val":"475","DisplayName":"475","DisplayDesc":"Connecticut"},
+  {"Val":"478","DisplayName":"478","DisplayDesc":"Georgia"},
+  {"Val":"479","DisplayName":"479","DisplayDesc":"Arkansas"},
+  {"Val":"480","DisplayName":"480","DisplayDesc":"Arizona"},
+  {"Val":"484","DisplayName":"484","DisplayDesc":"Pennsylvania"},
+  {"Val":"501","DisplayName":"501","DisplayDesc":"Arkansas"},
+  {"Val":"502","DisplayName":"502","DisplayDesc":"Kentucky"},
+
+  {"Val":"503","DisplayName":"503","DisplayDesc":"Oregon"},
+
+  {"Val":"504","DisplayName":"504","DisplayDesc":"Louisiana"},
+
+  {"Val":"505","DisplayName":"505","DisplayDesc":"New Mexico"},
+
+  {"Val":"506","DisplayName":"506","DisplayDesc":"Manitoba"},
+
+  {"Val":"507","DisplayName":"507","DisplayDesc":"Minnesota"},
+
+  {"Val":"508","DisplayName":"508","DisplayDesc":"Massachusetts"},
+
+  {"Val":"509","DisplayName":"509","DisplayDesc":"Washington"},
+
+  {"Val":"510","DisplayName":"510","DisplayDesc":"California"},
+
+  {"Val":"512","DisplayName":"512","DisplayDesc":"Texas"},
+
+  {"Val":"513","DisplayName":"513","DisplayDesc":"Ohio"},
+
+  {"Val":"514","DisplayName":"514","DisplayDesc":"Quebec"},
+
+  {"Val":"515","DisplayName":"515","DisplayDesc":"Iowa"},
+
+  {"Val":"516","DisplayName":"516","DisplayDesc":"New York"},
+
+  {"Val":"517","DisplayName":"517","DisplayDesc":"Michigan"},
+
+  {"Val":"518","DisplayName":"518","DisplayDesc":"New York"},
+
+  {"Val":"519","DisplayName":"519","DisplayDesc":"Ontario"},
+
+  {"Val":"520","DisplayName":"520","DisplayDesc":"Arizona"},
+
+  {"Val":"530","DisplayName":"530","DisplayDesc":"California"},
+
+  {"Val":"531","DisplayName":"531","DisplayDesc":"Nebraska"},
+
+  {"Val":"534","DisplayName":"534","DisplayDesc":"Wisconsin"},
+
+  {"Val":"539","DisplayName":"539","DisplayDesc":"Oklahoma"},
+
+  {"Val":"540","DisplayName":"540","DisplayDesc":"Virginia"},
+
+  {"Val":"541","DisplayName":"541","DisplayDesc":"Oregon"},
+
+  {"Val":"548","DisplayName":"548","DisplayDesc":"Ontario"},
+
+  {"Val":"551","DisplayName":"551","DisplayDesc":"New Jersey"},
+
+  {"Val":"559","DisplayName":"559","DisplayDesc":"California"},
+
+  {"Val":"561","DisplayName":"561","DisplayDesc":"Florida"},
+
+  {"Val":"562","DisplayName":"562","DisplayDesc":"California"},
+
+  {"Val":"563","DisplayName":"563","DisplayDesc":"Iowa"},
+
+  {"Val":"564","DisplayName":"564","DisplayDesc":"Washington"},
+
+  {"Val":"567","DisplayName":"567","DisplayDesc":"Ohio"},
+
+  {"Val":"570","DisplayName":"570","DisplayDesc":"Pennsylvania"},
+
+  {"Val":"571","DisplayName":"571","DisplayDesc":"Virginia"},
+
+  {"Val":"573","DisplayName":"573","DisplayDesc":"Missouri"},
+
+  {"Val":"574","DisplayName":"574","DisplayDesc":"Indianna"},
+
+  {"Val":"575","DisplayName":"575","DisplayDesc":"New Mexico"},
+
+  {"Val":"579","DisplayName":"579","DisplayDesc":"Quebec"},
+
+  {"Val":"580","DisplayName":"580","DisplayDesc":"Oklahoma"},
+
+  {"Val":"581","DisplayName":"581","DisplayDesc":"Quebec"},
+
+  {"Val":"585","DisplayName":"585","DisplayDesc":"New York"},
+
+  {"Val":"586","DisplayName":"586","DisplayDesc":"Michigan"},
+
+  {"Val":"587","DisplayName":"587","DisplayDesc":"Alberta"},
+
+  {"Val":"601","DisplayName":"601","DisplayDesc":"Mississippi"},
+
+  {"Val":"602","DisplayName":"602","DisplayDesc":"Arizona"},
+
+  {"Val":"603","DisplayName":"603","DisplayDesc":"New Hampshire"},
+
+  {"Val":"604","DisplayName":"604","DisplayDesc":"British Columbia"},
+
+  {"Val":"605","DisplayName":"605","DisplayDesc":"South Dakota"},
+
+  {"Val":"606","DisplayName":"606","DisplayDesc":"Kentucky"},
+
+  {"Val":"607","DisplayName":"607","DisplayDesc":"New York"},
+
+  {"Val":"608","DisplayName":"608","DisplayDesc":"Wisconsin"},
+
+  {"Val":"609","DisplayName":"609","DisplayDesc":"New Jersey"},
+
+  {"Val":"610","DisplayName":"610","DisplayDesc":"Pennsylvania"},
+
+  {"Val":"612","DisplayName":"612","DisplayDesc":"Minnesota"},
+
+  {"Val":"613","DisplayName":"613","DisplayDesc":"Ontario"},
+
+  {"Val":"614","DisplayName":"614","DisplayDesc":"Ohio"},
+
+  {"Val":"615","DisplayName":"615","DisplayDesc":"Tennessee"},
+
+  {"Val":"616","DisplayName":"616","DisplayDesc":"Michigan"},
+
+  {"Val":"617","DisplayName":"617","DisplayDesc":"Massachusetts"},
+
+  {"Val":"618","DisplayName":"618","DisplayDesc":"Illinois"},
+
+  {"Val":"619","DisplayName":"619","DisplayDesc":"California"},
+
+  {"Val":"620","DisplayName":"620","DisplayDesc":"Kansas"},
+
+  {"Val":"623","DisplayName":"623","DisplayDesc":"Arizona"},
+
+  {"Val":"626","DisplayName":"626","DisplayDesc":"California"},
+
+  {"Val":"628","DisplayName":"628","DisplayDesc":"California"},
+
+  {"Val":"629","DisplayName":"629","DisplayDesc":"Tennessee"},
+
+  {"Val":"630","DisplayName":"630","DisplayDesc":"Illinois"},
+
+  {"Val":"631","DisplayName":"631","DisplayDesc":"New York"},
+
+  {"Val":"636","DisplayName":"636","DisplayDesc":"Missouri"},
+
+  {"Val":"639","DisplayName":"639","DisplayDesc":"Saskatchewan"},
+
+  {"Val":"641","DisplayName":"641","DisplayDesc":"Iowa"},
+
+  {"Val":"646","DisplayName":"646","DisplayDesc":"New York"},
+
+  {"Val":"647","DisplayName":"647","DisplayDesc":"Ontario"},
+
+  {"Val":"649","DisplayName":"649","DisplayDesc":"Turks and Caicos Islands"},
+
+  {"Val":"650","DisplayName":"650","DisplayDesc":"California"},
+
+  {"Val":"651","DisplayName":"651","DisplayDesc":"Minnesota"},
+
+  {"Val":"657","DisplayName":"657","DisplayDesc":"California"},
+
+  {"Val":"660","DisplayName":"660","DisplayDesc":"Missouri"},
+
+  {"Val":"661","DisplayName":"661","DisplayDesc":"California"},
+
+  {"Val":"662","DisplayName":"662","DisplayDesc":"Mississippi"},
+
+  {"Val":"664","DisplayName":"664","DisplayDesc":"Montserrat"},
+
+  {"Val":"667","DisplayName":"667","DisplayDesc":"Maryland"},
+
+  {"Val":"669","DisplayName":"669","DisplayDesc":"California"},
+
+  {"Val":"670","DisplayName":"670","DisplayDesc":"Northern Mariana Islands"},
+
+  {"Val":"671","DisplayName":"671","DisplayDesc":"Guam"},
+
+  {"Val":"678","DisplayName":"678","DisplayDesc":"Georgia"},
+
+  {"Val":"680","DisplayName":"680","DisplayDesc":"New York"},
+
+  {"Val":"681","DisplayName":"681","DisplayDesc":"West Virginia"},
+
+  {"Val":"682","DisplayName":"682","DisplayDesc":"Texas"},
+
+  {"Val":"684","DisplayName":"684","DisplayDesc":"American Samoa"},
+
+  {"Val":"701","DisplayName":"701","DisplayDesc":"North Dakota"},
+
+  {"Val":"702","DisplayName":"702","DisplayDesc":"Nevada"},
+
+  {"Val":"703","DisplayName":"703","DisplayDesc":"Virginia"},
+
+  {"Val":"704","DisplayName":"704","DisplayDesc":"North Carolina"},
+
+  {"Val":"705","DisplayName":"705","DisplayDesc":"Ontario"},
+
+  {"Val":"706","DisplayName":"706","DisplayDesc":"Georgia"},
+
+  {"Val":"707","DisplayName":"707","DisplayDesc":"California"},
+
+  {"Val":"708","DisplayName":"708","DisplayDesc":"Illinois"},
+
+  {"Val":"709","DisplayName":"709","DisplayDesc":"Canada"},
+
+  {"Val":"712","DisplayName":"712","DisplayDesc":"Iowa"},
+
+  {"Val":"713","DisplayName":"713","DisplayDesc":"Texas"},
+
+  {"Val":"714","DisplayName":"714","DisplayDesc":"California"},
+
+  {"Val":"715","DisplayName":"715","DisplayDesc":"Wisconsin"},
+
+  {"Val":"716","DisplayName":"716","DisplayDesc":"New York"},
+
+  {"Val":"717","DisplayName":"717","DisplayDesc":"Pennsylvania"},
+
+  {"Val":"718","DisplayName":"718","DisplayDesc":"New York"},
+
+  {"Val":"719","DisplayName":"719","DisplayDesc":"Colorado"},
+
+  {"Val":"720","DisplayName":"720","DisplayDesc":"Colorado"},
+
+  {"Val":"721","DisplayName":"721","DisplayDesc":"Sint Maarten"},
+
+  {"Val":"724","DisplayName":"724","DisplayDesc":"Pennsylvania"},
+
+  {"Val":"725","DisplayName":"725","DisplayDesc":"Nevada"},
+
+  {"Val":"726","DisplayName":"726","DisplayDesc":"Texas"},
+
+  {"Val":"727","DisplayName":"727","DisplayDesc":"Florida"},
+
+  {"Val":"731","DisplayName":"731","DisplayDesc":"Tennessee"},
+
+  {"Val":"732","DisplayName":"732","DisplayDesc":"New Jersey"},
+
+  {"Val":"734","DisplayName":"734","DisplayDesc":"Michigan"},
+
+  {"Val":"737","DisplayName":"737","DisplayDesc":"Texas"},
+
+  {"Val":"740","DisplayName":"740","DisplayDesc":"Ohio"},
+
+  {"Val":"743","DisplayName":"743","DisplayDesc":"North Carolina"},
+
+  {"Val":"747","DisplayName":"747","DisplayDesc":"California"},
+
+  {"Val":"754","DisplayName":"754","DisplayDesc":"Florida"},
+
+  {"Val":"757","DisplayName":"757","DisplayDesc":"Virginia"},
+
+  {"Val":"758","DisplayName":"758","DisplayDesc":"Saint Lucia"},
+
+  {"Val":"760","DisplayName":"760","DisplayDesc":"California"},
+
+  {"Val":"762","DisplayName":"762","DisplayDesc":"Georgia"},
+
+  {"Val":"763","DisplayName":"763","DisplayDesc":"Minnesota"},
+
+  {"Val":"765","DisplayName":"765","DisplayDesc":"Indianna"},
+
+  {"Val":"767","DisplayName":"767","DisplayDesc":"Dominica"},
+
+  {"Val":"769","DisplayName":"769","DisplayDesc":"Mississippi"},
+
+  {"Val":"770","DisplayName":"770","DisplayDesc":"Georgia"},
+
+  {"Val":"772","DisplayName":"772","DisplayDesc":"Florida"},
+
+  {"Val":"773","DisplayName":"773","DisplayDesc":"Illinois"},
+
+  {"Val":"774","DisplayName":"774","DisplayDesc":"Massachusetts"},
+
+  {"Val":"775","DisplayName":"775","DisplayDesc":"Nevada"},
+
+  {"Val":"778","DisplayName":"778","DisplayDesc":"British Columbia"},
+
+  {"Val":"779","DisplayName":"779","DisplayDesc":"Illinois"},
+
+  {"Val":"780","DisplayName":"780","DisplayDesc":"Alberta"},
+
+  {"Val":"781","DisplayName":"781","DisplayDesc":"Massachusetts"},
+
+  {"Val":"782","DisplayName":"782","DisplayDesc":"Nova Scotia/PE Island"},
+
+  {"Val":"784","DisplayName":"784","DisplayDesc":"Saint Vincent and Grenadines"},
+
+  {"Val":"785","DisplayName":"785","DisplayDesc":"Kansas"},
+
+  {"Val":"786","DisplayName":"786","DisplayDesc":"Florida"},
+
+  {"Val":"787","DisplayName":"787","DisplayDesc":"Puerto Rico"},
+
+  {"Val":"800","DisplayName":"800","DisplayDesc":"Toll Free"},
+
+  {"Val":"801","DisplayName":"801","DisplayDesc":"Utah"},
+
+  {"Val":"802","DisplayName":"802","DisplayDesc":"Vermont"},
+
+  {"Val":"803","DisplayName":"803","DisplayDesc":"South Carolina"},
+
+  {"Val":"804","DisplayName":"804","DisplayDesc":"Virginia"},
+
+  {"Val":"805","DisplayName":"805","DisplayDesc":"California"},
+
+  {"Val":"806","DisplayName":"806","DisplayDesc":"Texas"},
+
+  {"Val":"807","DisplayName":"807","DisplayDesc":"Ontario"},
+
+  {"Val":"808","DisplayName":"808","DisplayDesc":"Hawaii"},
+
+  {"Val":"809","DisplayName":"809","DisplayDesc":"Dominican Republic"},
+
+  {"Val":"810","DisplayName":"810","DisplayDesc":"Michigan"},
+
+  {"Val":"812","DisplayName":"812","DisplayDesc":"Indianna"},
+
+  {"Val":"813","DisplayName":"813","DisplayDesc":"Florida"},
+
+  {"Val":"814","DisplayName":"814","DisplayDesc":"Pennsylvania"},
+
+  {"Val":"815","DisplayName":"815","DisplayDesc":"Illinois"},
+
+  {"Val":"816","DisplayName":"816","DisplayDesc":"Missouri"},
+
+  {"Val":"817","DisplayName":"817","DisplayDesc":"Texas"},
+
+  {"Val":"818","DisplayName":"818","DisplayDesc":"California"},
+
+  {"Val":"819","DisplayName":"819","DisplayDesc":"Quebec"},
+
+  {"Val":"825","DisplayName":"825","DisplayDesc":"Alberta"},
+
+  {"Val":"828","DisplayName":"828","DisplayDesc":"North Carolina"},
+
+  {"Val":"829","DisplayName":"829","DisplayDesc":"Dominican Republic"},
+
+  {"Val":"830","DisplayName":"830","DisplayDesc":"Texas"},
+
+  {"Val":"831","DisplayName":"831","DisplayDesc":"California"},
+
+  {"Val":"832","DisplayName":"832","DisplayDesc":"Texas"},
+
+  {"Val":"833","DisplayName":"833","DisplayDesc":"Toll Free"},
+
+  {"Val":"838","DisplayName":"838","DisplayDesc":"New York"},
+
+  {"Val":"843","DisplayName":"843","DisplayDesc":"South Carolina"},
+
+  {"Val":"844","DisplayName":"844","DisplayDesc":"Toll Free"},
+
+  {"Val":"845","DisplayName":"845","DisplayDesc":"New York"},
+
+  {"Val":"847","DisplayName":"847","DisplayDesc":"Illinois"},
+
+  {"Val":"848","DisplayName":"848","DisplayDesc":"New Jersey"},
+
+  {"Val":"849","DisplayName":"849","DisplayDesc":"Dominican Republic"},
+
+  {"Val":"850","DisplayName":"850","DisplayDesc":"Florida"},
+
+  {"Val":"854","DisplayName":"854","DisplayDesc":"South Carolina"},
+
+  {"Val":"855","DisplayName":"855","DisplayDesc":"Toll Free"},
+
+  {"Val":"856","DisplayName":"856","DisplayDesc":"New Jersey"},
+
+  {"Val":"857","DisplayName":"857","DisplayDesc":"Massachusetts"},
+
+  {"Val":"858","DisplayName":"858","DisplayDesc":"California"},
+
+  {"Val":"859","DisplayName":"859","DisplayDesc":"Kentucky"},
+
+  {"Val":"860","DisplayName":"860","DisplayDesc":"Connecticut"},
+
+  {"Val":"862","DisplayName":"862","DisplayDesc":"New Jersey"},
+
+  {"Val":"863","DisplayName":"863","DisplayDesc":"Florida"},
+
+  {"Val":"864","DisplayName":"864","DisplayDesc":"South Carolina"},
+
+  {"Val":"865","DisplayName":"865","DisplayDesc":"Tennessee"},
+
+  {"Val":"866","DisplayName":"866","DisplayDesc":"Toll Free"},
+
+  {"Val":"867","DisplayName":"867","DisplayDesc":"Yukon-NW Terr. - Nunavut"},
+
+  {"Val":"868","DisplayName":"868","DisplayDesc":"Trinidad and Tobago"},
+
+  {"Val":"869","DisplayName":"869","DisplayDesc":"Saint Kitts and Nevis"},
+
+  {"Val":"870","DisplayName":"870","DisplayDesc":"Arkansas"},
+
+  {"Val":"872","DisplayName":"872","DisplayDesc":"Illinois"},
+
+  {"Val":"873","DisplayName":"873","DisplayDesc":"Quebec"},
+
+  {"Val":"876","DisplayName":"876","DisplayDesc":"Jamaica"},
+
+  {"Val":"877","DisplayName":"877","DisplayDesc":"Toll Free"},
+
+  {"Val":"878","DisplayName":"878","DisplayDesc":"Pennsylvania"},
+
+  {"Val":"888","DisplayName":"888","DisplayDesc":"Toll Free"},
+
+  {"Val":"901","DisplayName":"901","DisplayDesc":"Tennessee"},
+
+  {"Val":"902","DisplayName":"902","DisplayDesc":"Nova Scotia/PE Island"},
+
+  {"Val":"903","DisplayName":"903","DisplayDesc":"Texas"},
+
+  {"Val":"904","DisplayName":"904","DisplayDesc":"Florida"},
+
+  {"Val":"905","DisplayName":"905","DisplayDesc":"Ontario"},
+
+  {"Val":"906","DisplayName":"906","DisplayDesc":"Michigan"},
+
+  {"Val":"907","DisplayName":"907","DisplayDesc":"Alaska"},
+
+  {"Val":"908","DisplayName":"908","DisplayDesc":"New Jersey"},
+
+  {"Val":"909","DisplayName":"909","DisplayDesc":"California"},
+
+  {"Val":"910","DisplayName":"910","DisplayDesc":"North Carolina"},
+
+  {"Val":"912","DisplayName":"912","DisplayDesc":"Georgia"},
+
+  {"Val":"913","DisplayName":"913","DisplayDesc":"Kansas"},
+
+  {"Val":"914","DisplayName":"914","DisplayDesc":"New York"},
+
+  {"Val":"915","DisplayName":"915","DisplayDesc":"Texas"},
+
+  {"Val":"916","DisplayName":"916","DisplayDesc":"California"},
+
+  {"Val":"917","DisplayName":"917","DisplayDesc":"New York"},
+
+  {"Val":"918","DisplayName":"918","DisplayDesc":"Oklahoma"},
+
+  {"Val":"919","DisplayName":"919","DisplayDesc":"North Carolina"},
+
+  {"Val":"920","DisplayName":"920","DisplayDesc":"Wisconsin"},
+
+  {"Val":"925","DisplayName":"925","DisplayDesc":"California"},
+
+  {"Val":"928","DisplayName":"928","DisplayDesc":"Arizona"},
+
+  {"Val":"929","DisplayName":"929","DisplayDesc":"New York"},
+
+  {"Val":"930","DisplayName":"930","DisplayDesc":"Indianna"},
+
+  {"Val":"931","DisplayName":"931","DisplayDesc":"Tennessee"},
+
+  {"Val":"934","DisplayName":"934","DisplayDesc":"New York"},
+
+  {"Val":"936","DisplayName":"936","DisplayDesc":"Texas"},
+
+  {"Val":"937","DisplayName":"937","DisplayDesc":"Ohio"},
+
+  {"Val":"938","DisplayName":"938","DisplayDesc":"Alabama"},
+
+  {"Val":"939","DisplayName":"939","DisplayDesc":"Puerto Rico"},
+
+  {"Val":"940","DisplayName":"940","DisplayDesc":"Texas"},
+
+  {"Val":"941","DisplayName":"941","DisplayDesc":"Florida"},
+
+  {"Val":"947","DisplayName":"947","DisplayDesc":"Michigan"},
+
+  {"Val":"949","DisplayName":"949","DisplayDesc":"California"},
+
+  {"Val":"951","DisplayName":"951","DisplayDesc":"California"},
+
+  {"Val":"952","DisplayName":"952","DisplayDesc":"Minnesota"},
+
+  {"Val":"954","DisplayName":"954","DisplayDesc":"Florida"},
+
+  {"Val":"956","DisplayName":"956","DisplayDesc":"Texas"},
+
+  {"Val":"959","DisplayName":"959","DisplayDesc":"Connecticut"},
+
+  {"Val":"970","DisplayName":"970","DisplayDesc":"Colorado"},
+
+  {"Val":"971","DisplayName":"971","DisplayDesc":"Oregon"},
+
+  {"Val":"972","DisplayName":"972","DisplayDesc":"Texas"},
+
+  {"Val":"973","DisplayName":"973","DisplayDesc":"New Jersey"},
+
+  {"Val":"978","DisplayName":"978","DisplayDesc":"Massachusetts"},
+
+  {"Val":"979","DisplayName":"979","DisplayDesc":"Texas"},
+
+  {"Val":"980","DisplayName":"980","DisplayDesc":"North Carolina"},
+
+  {"Val":"984","DisplayName":"984","DisplayDesc":"North Carolina"},
+
+  {"Val":"985","DisplayName":"985","DisplayDesc":"Louisiana"},
+
+  {"Val":"986","DisplayName":"986","DisplayDesc":"Idaho"},
+
+  {"Val":"989","DisplayName":"989","DisplayDesc":"Michigan"}
+
+]

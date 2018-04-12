@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.business.admin.westfax">
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.example.gm.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+        <activity
+            android:name=".MainActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginWestfax"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PDFViewActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name=".SendFaxActivityy"-->
+            <!--android:alwaysRetainTaskState="true"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
+            <!--android:windowSoftInputMode="stateHidden|adjustResize">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+              <!--</activity>-->
+
+        <activity
+            android:name=".RegisterActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SendFaxForwardActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewSendAtivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="application/pdf" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name=".FaxViewerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CaptureSignature">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name=".permission.PermissionsActivity"-->
+            <!--android:label="@string/app_name" />-->
+
+        <receiver
+            android:name=".Pojo.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.business.admin.westfax.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/file_provider" />
+        </provider>
+
+
+
+    </application>
+
+</manifest>

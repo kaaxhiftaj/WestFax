@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Select your personal Fax Number. You can select a toll-Free number or one in your local area"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="250dp"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:background="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Search By:"
+                android:textSize="17sp" />
+
+            <RadioGroup
+                android:id="@+id/grpsrch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdtoll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Toll Free"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/rdareacod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Area Code"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/linspin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Area Code"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spinarcod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:overlapAnchor="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Select Number"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycletoll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclearea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/norcrd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="No Record Found"
+                        android:textSize="22sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content">
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/txttoll"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="30sp"-->
+                    <!--android:layout_marginLeft="15dp"-->
+
+                    <!--android:text="choosed"-->
+                    <!--android:textColor="#fc1323"-->
+                    <!--android:textSize="20sp"-->
+
+                    <!--/>-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/txtareaa"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="30sp"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:text="choosed"-->
+                    <!--android:textColor="#fc1323"-->
+                    <!--android:textSize="20sp" />-->
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/btnsignext"
+                        android:layout_width="210dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/input_field" />
+
+
+                    <TextView
+                        android:id="@+id/txttoll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txtareaa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                    <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Next"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textSize="22dp"/>-->
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

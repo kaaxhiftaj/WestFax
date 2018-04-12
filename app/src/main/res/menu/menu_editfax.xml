@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_ediit"
+        android:icon="@drawable/ic_editt"
+        android:title=""
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_forword"-->
+        <!--android:icon="@drawable/ic_forward"-->
+        <!--android:title=""-->
+        <!--app:showAsAction="always" />-->
+
+
+
+    <!--<item android:id="@+id/action_sett"-->
+        <!--android:title="menu_email"-->
+        <!--android:icon="@drawable/ic_forward"-->
+        <!--app:showAsAction="always">-->
+        <!--<menu>-->
+            <!--<group android:id="@+id/groupset" android:checkableBehavior="single">-->
+
+            <!--<item-->
+                <!--android:id="@+id/edt_myproff"-->
+                <!--android:icon="@drawable/usericn"-->
+                <!--android:onClick="onsetFaxClick"-->
+                <!--android:title="My Profile"/>-->
+            <!--<item-->
+                <!--android:id="@+id/edt_faxset"-->
+                <!--android:icon="@drawable/settings_gears"-->
+                <!--android:onClick="onsetFaxClick"-->
+                <!--android:title="Fax Settings" />-->
+            <!--<item-->
+                <!--android:id="@+id/edt_logout"-->
+                <!--android:icon="@drawable/logout"-->
+                <!--android:onClick="onsetFaxClick"-->
+                <!--android:title="Logout" />-->
+            <!--<item-->
+                <!--android:id="@+id/edt_faq"-->
+                <!--android:icon="@drawable/info"-->
+                <!--android:onClick="onsetFaxClick"-->
+                <!--android:title="FAQ" />-->
+
+            <!--<item-->
+                <!--android:id="@+id/edt_exit"-->
+                <!--android:onClick="onsetFaxClick"-->
+                <!--android:icon="@drawable/ic_exit"-->
+                <!--android:title="Exit" />-->
+            <!--</group>-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>

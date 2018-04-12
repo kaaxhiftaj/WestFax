@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Send Fax"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Header : "
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/fx_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:gravity="top"
+                        android:hint="Header"
+                        android:inputType="text|textMultiLine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="To : "
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/fxaddsendnum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:hint="Add Contact"
+                            android:inputType="phone"
+                            android:maxLength="12"
+                            android:textColor="#000" />
+
+                        <ImageView
+                            android:id="@+id/fximgaddcon"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="30dp"
+                            android:src="@drawable/ic_plusadd" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recsendnumfx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:overScrollMode="never" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Attachments: "
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/fxaddcon"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:hint="Add File"
+                        android:text="newpdf.pdf"
+                        android:textColor="#000" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnsendfx"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/input_field"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="Send Now"
+                    android:textColor="#fff" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </RelativeLayout>
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/newcrepdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

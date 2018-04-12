@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/west_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:text="Log in to WestFax"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/logmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dip"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_field"
+                    android:drawableLeft="@drawable/ic_prodef"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#000000"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="User Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textColorHint="#b3000000"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+                <!--MPatel-->
+                <EditText
+                    android:id="@+id/logpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dip"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/input_field"
+                    android:drawableLeft="@drawable/ic_password"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#000000"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="Password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textColorHint="#b3000000"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+                <!--Temp2018MPatel-->
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/chkremembr"
+                    android:layout_marginTop="5dp"
+                    android:text="Remember me" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnlogin"
+                style="@style/AppTheme.Button"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_field"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                app:backgroundTint="@color/colorPrimary" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="I do not have an account "
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/inqlog"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/inquiry" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btncreate"
+                style="@style/AppTheme.Button"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/input_field"
+                android:text="Create Account"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                app:backgroundTint="@color/colorPrimary" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

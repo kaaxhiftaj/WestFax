@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/itm_all"
+        android:icon="@drawable/all"
+        android:checked="true"
+        android:title="All Faxes" />
+    <item
+        android:id="@+id/itm_inbox"
+        android:title="Inbox"
+        android:icon="@drawable/inboximg"/>
+    <item
+        android:id="@+id/itm_sent"
+        android:title="Sent Items"
+        android:icon="@drawable/outboximg"/>
+    <!--<item-->
+    <!--android:id="@+id/item_teach_cale"-->
+    <!--android:icon="@drawable/ic_folder"-->
+    <!--android:title="Calendar" />-->
+
+    <item
+        android:id="@+id/itm_sendfax"
+        android:icon="@drawable/senfaximg"
+        android:title="Send Fax" />
+    </group>
+
+</menu>

@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60 Day no risk trial"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="\u2022 Credit card required "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="\u2022 500 inbound/outbound fax per month "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="\u2022 Best Plan "/>
+        <Button
+            android:text="Select"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_field"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:id="@+id/btnfirplan"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 Day no risk trial"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="\u2022 No Credit card needed "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="\u2022 5 outbound faxes"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="\u2022 Unlimited inbound faxes"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="\u2022 Signup within 5 days to keep your fax number"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_field"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            app:backgroundTint="@color/colorPrimary"
+          android:id="@+id/btnsecplan"
+            android:text="Select"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>

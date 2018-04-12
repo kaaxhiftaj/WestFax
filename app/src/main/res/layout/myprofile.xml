@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:visibility="gone"
+        android:text="First Name"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+       android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+           android:inputType="text"
+            android:textSize="17sp"
+            android:paddingLeft="10dp"
+            android:hint="First Name"
+            android:id="@+id/edtfnm"
+           />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="Last Name"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:hint="Last Name"
+            android:textSize="17sp"
+            android:id="@+id/edtlnam"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:text="Email"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtemail"
+            android:hint="Email"
+            android:textSize="17sp"
+            android:paddingLeft="10dp"
+            android:inputType="textEmailAddress"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Phone "/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtphn"
+            android:hint="Phone "
+            android:textSize="17sp"
+            android:paddingLeft="10dp"
+            android:inputType="phone"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:text="Save"
+        android:textColor="#fff"
+        android:visibility="gone"
+        android:background="@drawable/input_field"
+        app:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnconsave"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text="New Password "/>
+       <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtpass"
+           android:layout_marginLeft="10dp"
+           android:textSize="17sp"
+           android:paddingLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:inputType="textPassword"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:text="New Password  Confirm" />
+      <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edtconpass"
+            android:layout_marginLeft="10dp"
+          android:textSize="17sp"
+            android:layout_marginRight="10dp"
+          android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:text="Change Password"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btnchngpas"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:background="@drawable/input_field"
+        app:backgroundTint="@color/colorPrimary"
+
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

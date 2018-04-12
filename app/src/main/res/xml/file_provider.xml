@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<external-path name="external_files" path="."/>-->
+    <cache-path name="cache" path="/" />
+    <external-path name="myexternalimages" path="." />
+    <!--Android/data/com.business.admin.westfax.fileprovider/files-->
+    <!--<external-path-->
+        <!--name="my_images"-->
+        <!--path="."/>-->
+    <external-cache-path
+        name="file_catch"
+        path="."/>
+    <files-path name="my_images" path="."/>
+    <external-files-path name="files" path="." />
+</paths>
+
+
+    <!--paths xmlns:android="http://schemas.android.com/apk/res/android">--><!--&lt;!&ndash;<external-files-path name="my_images" path="." />&ndash;&gt;--><!--<cache-path name="shared" path="shared/" />--><!--<external-path--><!--name="my_images"--><!--path="."/>--><!--<external-files-path name="name" path="path" />--><!--</paths>--><!--<paths xmlns:android="http://schemas.android.com/apk/res/android">--><!--&lt;!&ndash;<cache-path name="shared" path="." />&ndash;&gt;--><!--<external-path--><!--name="my_images"--><!--path="files/"/>--><!--</paths>--><!--<?xml version="1.0" encoding="utf-8"?>--><!--<paths xmlns:android="http://schemas.android.com/apk/res/android">--><!--<cache-path name="shared" path="shared/" />--><!--</paths>-->

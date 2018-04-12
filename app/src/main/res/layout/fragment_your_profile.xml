@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="First Name"
+                android:textColor="#000"
+                android:visibility="gone" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/crfname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="First Name"
+                    android:inputType="text"
+                    android:paddingLeft="15dp" />
+            </android.support.design.widget.TextInputLayout>
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:text="Last Name"-->
+            <!--android:textColor="#000" />-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp">
+
+
+                <EditText
+                    android:id="@+id/crlnam"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Last Name"
+                    android:inputType="text"
+                    android:paddingLeft="15dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Gender"
+                android:textColor="#000"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/rdgrpgend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/rdmal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/rdfeml"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Female" />
+
+                <RadioButton
+                    android:id="@+id/rdothr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Other" />
+            </RadioGroup>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:text="Email"-->
+            <!--android:textColor="#000" />-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp">
+
+
+                <EditText
+                    android:id="@+id/crmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="15dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:text="Phone "-->
+            <!--android:textColor="#000" />-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/crphn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Phone"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:paddingLeft="15dp" />
+            </android.support.design.widget.TextInputLayout>
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="User Name "-->
+            <!--android:textColor="#000" />-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/cruname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="User Name"
+                    android:inputType="text"
+                    android:paddingLeft="15dp" />
+            </android.support.design.widget.TextInputLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/strusrvalid"
+    android:visibility="gone"
+    android:text=""/>
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:textSize="12sp"-->
+                <!--android:hint=" New Password "/>-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <EditText
+                    android:id="@+id/crpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="15dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:textSize="12sp"-->
+                <!--android:hint="New Password Confirm"-->
+                <!--android:textColor="#000" />-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <EditText
+                    android:id="@+id/crconfrm"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Password Confirm"
+                    android:inputType="textPassword"
+                    android:paddingLeft="15dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnyrnext"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/input_field"
+                android:text="Next"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                app:backgroundTint="@color/colorPrimary" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
