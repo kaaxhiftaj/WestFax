@@ -47,7 +47,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class PaymentMethod extends Fragment {
-    Button btnpaydon;
+    Button btnpaydon, cancel;
     String ufname, ulname, umail, uphn, upass, namee, value, areacode, typp, dayy, uname;
     ProgressDialog pDialog;
     EditText edtadd1, edtadd2, edtpaycity, edtpaystat, edtpayzip, edtcrholname, edtpayccv;
@@ -102,6 +102,9 @@ public class PaymentMethod extends Fragment {
                 "\n uname--->" + uname +
                 "\n faxnum" + faxnum + "==" + origfaxnum +
                 "\n areaname" + areaname);
+
+        //Reference
+
         btnpaydon = (Button) rootview.findViewById(R.id.btnpaydon);
         edtadd1 = (EditText) rootview.findViewById(R.id.edtadd1);
         edtadd2 = (EditText) rootview.findViewById(R.id.edtadd2);
@@ -114,6 +117,7 @@ public class PaymentMethod extends Fragment {
         carddetail = (LinearLayout) rootview.findViewById(R.id.carddetail);
         spinyer = (Spinner) rootview.findViewById(R.id.spinyer);
         spinmon = (Spinner) rootview.findViewById(R.id.spinmon);
+        cancel = (Button)rootview.findViewById(R.id.cancel);
         edtcrname.getCardNumber(); // Get the card number
         edtcrname.isValid(); // Is the card number valid
         edtcrname.getCardType();
@@ -140,18 +144,6 @@ public class PaymentMethod extends Fragment {
             String s = "" + i;
             yearlist.add(s);
         }
-
-//        {
-//            "Status": true,
-//                "StatusCode": 200,
-//                "Message": "OK",
-//                "Data": [
-//            {
-//                "Name": "MobileApp_FAQUrl",
-//                    "Value": "https://home.westfax.com/app/content/faq"
-//            }
-//    ]
-//        }
 
 
         Log.e("year bhar===>", "" + yearlist);
@@ -190,41 +182,20 @@ public class PaymentMethod extends Fragment {
                 String adcardnum = edtcrname.getText().toString();
                 String addccv = edtpayccv.getText().toString();
 
-//                if (dayy.equals("5")) {
-//                    if (add1.length() > 0 || add2.length() > 0 ||
-//                            adcity.length() > 0 || adstat.length() > 0) {
-//
-//                        if (zipp.length() == 5 || zipp.length() == 9) {
-//
-//                            getCreateAccount();
-//
-//                            getCreateAccountForFiveDay();
-//                        } else {
-//                            Toast.makeText(getContext(), "Enter Valid Zipcode", Toast.LENGTH_SHORT).show();
-//
-//                        }
-//                    } else {
-//                        Toast.makeText(getContext(), "Enter all credentials", Toast.LENGTH_SHORT).show();
-//
-//                    }
-//
-//                } else {
+                getCreateAccount();
 
 
-                if (add1.length() > 0 &&
-                        adcity.length() > 0 && adstat.length() > 0) {
+            }
+        });
 
-                    if (zipp.length() == 5 || zipp.length() == 9) {
-                        getCreateAccount();
-                    } else {
-                        Toast.makeText(getContext(), "Enter Valid Zipcode", Toast.LENGTH_SHORT).show();
-
-                    }
-                } else {
-                    Toast.makeText(getContext(), "Enter all credentials", Toast.LENGTH_SHORT).show();
-
-                }
-//                }
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Fragment fragment = new SignupFragment();
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction()
+                        .replace(R.id.mainfrm, fragment)
+                        .commit();
             }
         });
         return rootview;
@@ -475,7 +446,9 @@ public class PaymentMethod extends Fragment {
                     Toast.makeText(getContext(), "Account Created", Toast.LENGTH_LONG).show();
 
                 } else {
-                    Toast.makeText(getContext(), "Invalid response", Toast.LENGTH_LONG).show();
+
+
+                    Toast.makeText(getContext(), String.valueOf(response.message()) , Toast.LENGTH_LONG).show();
                 }
 
             }

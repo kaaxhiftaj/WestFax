@@ -157,7 +157,7 @@
             android:text="Cancel"
             android:textColor="#fff"
             android:textSize="17sp"
-            app:backgroundTint="#BFC9CA" />
+            app:backgroundTint="@color/colorPrimary"/>
 
         <Button
             android:id="@+id/btnfrwrd"

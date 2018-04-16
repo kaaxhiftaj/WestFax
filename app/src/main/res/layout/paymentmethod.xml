@@ -131,6 +131,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:hint="Zip Code "
+                    android:maxLength="5"
                     android:inputType="number" />
             </android.support.design.widget.TextInputLayout>
 
@@ -267,17 +268,40 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/btnpaydon"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_field"
+                    android:text="Sign Up"
+                    android:textColor="#fff"
+                    app:backgroundTint="@color/colorPrimary" />
+
             <Button
-                android:id="@+id/btnpaydon"
+                android:id="@+id/cancel"
                 android:layout_width="120dp"
+                android:layout_marginLeft="10dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/input_field"
-                android:text="Sign Up"
+                android:text="Cancel"
                 android:textColor="#fff"
                 app:backgroundTint="@color/colorPrimary" />
+
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

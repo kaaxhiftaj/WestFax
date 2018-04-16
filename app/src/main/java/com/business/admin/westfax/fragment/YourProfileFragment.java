@@ -133,27 +133,51 @@ public class YourProfileFragment extends Fragment {
 
 
 
-                if (strfnam.equals("") || strfnam.length() < 3) {
+                if (strfnam.equals("") ||  strfnam.length() < 3 || strfnam.length() > 10 || strfnam.contains("@") ||
+                        strfnam.contains("~") || strfnam.contains("`") || strfnam.contains("#")  ||
+                        strfnam.contains("$")  || strfnam.contains("%")  || strfnam.contains("^") ||
+                        strfnam.contains("&")  || strfnam.contains("*") || strfnam.contains("(")||
+                        strfnam.contains(")")  || strfnam.contains("-") || strfnam.contains("+") ||
+                        strfnam.contains("{")  || strfnam.contains("}")  || strfnam.contains("[") ||
+                        strfnam.contains("]")  || strfnam.contains("|")
+                        ) {
                     crfname.setError("Enter a valid frist Name");
                 }
-                else if (strlnam.equals("") || strlnam.length() < 3) {
+                else if (strlnam.equals("") || strlnam.length() < 3 || strlnam.length() > 10|| strfnam.contains("@") ||
+                        strfnam.contains("~") || strfnam.contains("`") || strfnam.contains("#")  ||
+                        strfnam.contains("$")  || strfnam.contains("%")  || strfnam.contains("^") ||
+                        strfnam.contains("&")  || strfnam.contains("*") || strfnam.contains("(")||
+                        strfnam.contains(")")  || strfnam.contains("-") || strfnam.contains("+") ||
+                        strfnam.contains("{")  || strfnam.contains("}")  || strfnam.contains("[") ||
+                        strfnam.contains("]")  || strfnam.contains("|")
+                        ){
                     crlnam.setError("Enter a valid Last Name");
                 }
                 else if ((!android.util.Patterns.EMAIL_ADDRESS.matcher(strmail).matches())) {
                     crmail.setError("Please enter valid Email Id");
                 }
-                else if (strphn.equals("") || strphn.length() == 10) {
+                else if (strphn.equals("") || strphn.length() != 10) {
                     crphn.setError("Enter a valid Phone Number");
                 }
-                else if (struname.equals("") || struname.length() < 6) {
+                else if (struname.equals("") || struname.length() < 6 || struname.length() > 10  || strfnam.contains("@") ||
+                        strfnam.contains("~") || strfnam.contains("`") || strfnam.contains("#")  ||
+                        strfnam.contains("$")  || strfnam.contains("%")  || strfnam.contains("^") ||
+                        strfnam.contains("&")  || strfnam.contains("*") || strfnam.contains("(")||
+                        strfnam.contains(")")  || strfnam.contains("-") || strfnam.contains("+") ||
+                        strfnam.contains("{")  || strfnam.contains("}")  || strfnam.contains("[") ||
+                        strfnam.contains("]")  || strfnam.contains("|")
+                        ){
                     cruname.setError("Enter a valid usernName");
                 }
 
-                else if (mainpass.length() < 6 || mainpass.contains("")) {
-                    cruname.setError("Please enter a scure password");
+                else if (mainpass.length() < 6 ) {
+                    crpass.setError("Please enter a scure password");
                 }
                 else if (! confpass.equals(mainpass)){
-                    cruname.setError("Password Mismatch");
+                    crconfrm.setError("Password Mismatch");
+                } else {
+
+                    userValidation();
                 }
 
 
@@ -180,7 +204,7 @@ public class YourProfileFragment extends Fragment {
 //                                    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 //// onClick of button perform this simplest code.
 //                                    if (strmail.matches(emailPattern)) {
-//                                        userValidation();
+
 //
 //                                    } else {
 //                                        Toast.makeText(getContext(), "Invalid email address", Toast.LENGTH_SHORT).show();
